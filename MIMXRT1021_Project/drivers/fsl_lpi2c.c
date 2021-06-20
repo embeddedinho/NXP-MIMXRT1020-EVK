@@ -698,7 +698,7 @@ status_t LPI2C_MasterStop(LPI2C_Type *base)
         {
             waitTimes--;
 #else
-        while (result == kStatus_Success)
+        while (result != kStatus_Success)
         {
 #endif
             uint32_t status = LPI2C_MasterGetStatusFlags(base);

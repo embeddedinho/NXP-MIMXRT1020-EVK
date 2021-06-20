@@ -121,7 +121,7 @@
 #define WHO_AM_I_REG 0x0D
 
 /* Content */
-#define kFXOS_WHO_AM_I_Device_ID 0xC7
+#define kFXOS_WHO_AM_I_Device_ID 0xC4
 
 /* XYZ_DATA_CFG Sensor Data Configuration Register */
 #define XYZ_DATA_CFG_REG 0x0E

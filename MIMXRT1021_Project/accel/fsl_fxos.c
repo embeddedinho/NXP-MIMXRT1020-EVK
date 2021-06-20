@@ -18,7 +18,7 @@ status_t FXOS_Init(fxos_handle_t *fxos_handle, fxos_config_t *config)
     assert(config->I2C_SendFunc);
     assert(config->I2C_ReceiveFunc);
 
-    uint8_t tmp[1] = {0};
+    uint8_t tmp[0] = {0};
 
     /* Initialize the I2C access function. */
     fxos_handle->I2C_SendFunc    = config->I2C_SendFunc;
